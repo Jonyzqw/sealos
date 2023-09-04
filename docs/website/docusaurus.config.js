@@ -3,18 +3,18 @@ const generateAlgoliKey = () => "ce5b8e1e4d0d35ff587caf75ac404df4"
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "sealos",
-  tagline: "Kubernetes-kernel-based cloud os! Let's sealos run kubernetes",
-  url: "https://docs.sealos.io/",
-  baseUrl: "/",
+  title: 'AutoSpark',
+  tagline: "iflytek is cool",
+  url: 'https://iflytek.github.io',
+  baseUrl: '/autospark_website/',
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/sealos.ico",
+  favicon: 'img/AutoSpark-logo-16.png',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "labring", // Usually your GitHub org/user name.
-  projectName: "sealos", // Usually your repo name.
+  projectName: "iflytek", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -36,7 +36,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl: ({ versionDocsDirPath, docPath, locale }) =>
-            "https://github.com/labring/sealos/tree/main/docs/4.0/" +
+            "https://github.com/iflytek/autospark_website/tree/zqwu/docs/4.0/" +
             (locale === "en" ? `${versionDocsDirPath}` : `i18n/${locale}`) +
             `/${docPath}`,
           editLocalizedFiles: false,
@@ -47,7 +47,7 @@ const config = {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/labring/sealos/tree/main/docs",
+          editUrl: "https://github.com/iflytek/autospark_website/tree/zqwu/docs",
           editLocalizedFiles: true,
         },
         theme: {
@@ -86,8 +86,8 @@ const config = {
       title: "",
       logo: {
         alt: "sealos",
-        src: "img/sealos-left.png",
-        srcDark: "img/sealos-left-dark.png",
+        src: "img/AutoSpark-logo-14.png",
+        srcDark: "img/AutoSpark-logo-14.png",
       },
       items: [
         {
@@ -112,7 +112,7 @@ const config = {
           position: "right",
         },
         {
-          href: "https://github.com/labring/sealos",
+          href: "https://github.com/iflytek/autospark_website",
           position: "right",
           className: "header-github-link",
           "aria-label": "GitHub repository",
